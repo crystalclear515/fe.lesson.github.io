@@ -442,3 +442,46 @@ template {
     margin-top: 67px;
     padding-top: 16px;
     padding-bottom: 15px; }
+
+.benefits {
+  background-color: #eeeeef;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  padding: 56px 93px 62px; }
+  .benefits .benefit-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 24%;
+    text-align: center; }
+    .benefits .benefit-item img {
+      display: inline-block;
+      border-style: none;
+      margin-bottom: 10px; }
+    .benefits .benefit-item h2 {
+      text-transform: uppercase;
+      font-family: "PT Sans";
+      font-weight: bold;
+      font-size: 16px;
+      position: relative; }
+    .benefits .benefit-item div {
+      line-height: 24px;
+      font-family: "PT Sans";
+      font-weight: normal;
+      font-style: normal;
+      font-size: 14px;
+      margin-top: 25px;
+      letter-spacing: 0.8px; }
