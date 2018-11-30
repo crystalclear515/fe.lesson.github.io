@@ -1,4 +1,96 @@
+*{
+  box-sizing: border-box;
+}
+
 .container{
   margin: 0 auto;
   width: 800px;
+}
+
+.header-section .container{
+  background-image: url(../img/bg.jpg)
+}
+
+.logo-block{
+  text-align: center;
+  font-family: 'Belinda';
+  font-weight: normal;
+  font-style: normal;
+  padding-top: 54px;
+  padding-bottom: 23px;
+  a{
+    text-decoration: none;
+    font-size: 52px;
+    color: #fff;
+  }
+}
+
+.menu nav ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  li {
+    width: 12.3%;
+  }
+    a{
+      color: #fff;
+      text-decoration: none;
+      font-family: "Open Sans";
+      text-transform: uppercase;
+      font-size: 13px;
+    }
+}
+
+.header-content{
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 121px;
+  .h1-intro{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Ubuntu";
+    font-size: 53px;
+    margin-bottom: 30px;
+  }
+  h2{
+    position: relative;
+    color: #fff;
+    font-family: 'PT Sans';
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+    &::before{
+      left: 160px;
+      position: absolute;
+      content: "";
+      height: 2px;
+      width: 100px;
+      background-color: rgba(255, 255, 255, 0.4);
+      top: 8px;
+    }
+    &::after{
+      right: 160px;
+      position: absolute;
+      content: "";
+      height: 2px;
+      width: 100px;
+      background-color: rgba(255, 255, 255, 0.4);
+      top: 8px;
+    }
+  }
+  .get-copy-btn{
+    width: 196px;
+    border-radius: 40px;
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-family: "PT Sans";
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+    background-color: #50c3af;
+    margin-top: 67px;
+    padding-top: 16px;
+    padding-bottom: 15px;
+  }
 }
