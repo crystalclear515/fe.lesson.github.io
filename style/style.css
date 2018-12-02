@@ -484,4 +484,127 @@ template {
       font-style: normal;
       font-size: 14px;
       margin-top: 25px;
-      letter-spacing: 0.8px; }
+      letter-spacing: 0.8px;
+      position: relative; }
+      .benefits .benefit-item div::before {
+        top: -21px;
+        position: absolute;
+        content: "";
+        width: 120px;
+        height: 2px;
+        background-color: #e2e3e4;
+        left: 16px; }
+
+.another-benefits {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  padding-top: 64px; }
+  .another-benefits .another-benefits-item {
+    width: 35%; }
+    .another-benefits .another-benefits-item h2 {
+      font-family: "PT Sans";
+      text-transform: uppercase;
+      font-size: 18px;
+      margin-top: 34px;
+      margin-bottom: 50px;
+      font-weight: bold;
+      position: relative; }
+      .another-benefits .another-benefits-item h2::after {
+        left: 0px;
+        bottom: -21px;
+        position: absolute;
+        height: 2px;
+        width: 240px;
+        content: "";
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e9e9ea+0,eceded+50,f1f1f1+74,f3f3f3+100 */
+        background: #e9e9ea;
+        /* Old browsers */
+        background: -moz-linear-gradient(left, #e9e9ea 0%, #eceded 50%, #f1f1f1 74%, #f3f3f3 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, #e9e9ea 0%, #eceded 50%, #f1f1f1 74%, #f3f3f3 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: -webkit-gradient(linear, left top, right top, from(#e9e9ea), color-stop(50%, #eceded), color-stop(74%, #f1f1f1), to(#f3f3f3));
+        background: -o-linear-gradient(left, #e9e9ea 0%, #eceded 50%, #f1f1f1 74%, #f3f3f3 100%);
+        background: linear-gradient(to right, #e9e9ea 0%, #eceded 50%, #f1f1f1 74%, #f3f3f3 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9e9ea', endColorstr='#f3f3f3',GradientType=1 );
+        /* IE6-9 */ }
+    .another-benefits .another-benefits-item div {
+      font-family: "PT Sans";
+      font-weight: normal; }
+    .another-benefits .another-benefits-item a {
+      margin-bottom: 77px;
+      margin-top: 39px;
+      width: 100px;
+      text-align: center;
+      border-radius: 40px;
+      text-decoration: none;
+      display: inline-block;
+      color: #fff;
+      font-family: "PT Sans";
+      font-weight: normal;
+      font-size: 14px;
+      background-color: #50c3af;
+      padding-top: 8px;
+      padding-bottom: 8px; }
+
+.descr {
+  background-color: #eeeeef;
+  padding: 50px 105px 0; }
+  .descr h3 {
+    margin-top: 17px;
+    padding-left: 40px;
+    font-size: 20px;
+    font-family: "PT Sans";
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative; }
+    .descr h3 img {
+      position: absolute;
+      width: 21px;
+      left: 5px;
+      opacity: 0.2; }
+    .descr h3::after {
+      left: 0px;
+      bottom: -19px;
+      position: absolute;
+      height: 2px;
+      width: 500px;
+      content: "";
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e9e9ea+0,eceded+50,f1f1f1+74,f3f3f3+100 */
+      background: #e9e9ea;
+      /* Old browsers */
+      background: -moz-linear-gradient(left, #e9e9ea 0%, #eceded 50%, #f1f1f1 74%, #f3f3f3 100%);
+      /* FF3.6-15 */
+      background: -webkit-linear-gradient(left, #e9e9ea 0%, #eceded 50%, #f1f1f1 74%, #f3f3f3 100%);
+      /* Chrome10-25,Safari5.1-6 */
+      background: -webkit-gradient(linear, left top, right top, from(#e9e9ea), color-stop(50%, #eceded), color-stop(74%, #f1f1f1), to(#f3f3f3));
+      background: -o-linear-gradient(left, #e9e9ea 0%, #eceded 50%, #f1f1f1 74%, #f3f3f3 100%);
+      background: linear-gradient(to right, #e9e9ea 0%, #eceded 50%, #f1f1f1 74%, #f3f3f3 100%);
+      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9e9ea', endColorstr='#f3f3f3',GradientType=1 );
+      /* IE6-9 */ }
+  .descr p {
+    margin-top: 42px;
+    font-family: "PT Sans";
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px; }
+  .descr a {
+    margin-bottom: 65px;
+    margin-top: 21px;
+    width: 100px;
+    text-align: center;
+    border-radius: 40px;
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-family: "PT Sans";
+    font-weight: normal;
+    font-size: 14px;
+    background-color: #d2d5da;
+    padding-top: 8px;
+    padding-bottom: 8px; }
