@@ -476,7 +476,8 @@ template {
       font-family: "PT Sans";
       font-weight: bold;
       font-size: 16px;
-      position: relative; }
+      position: relative;
+      color: #384048; }
     .benefits .benefit-item div {
       line-height: 24px;
       font-family: "PT Sans";
@@ -485,7 +486,8 @@ template {
       font-size: 14px;
       margin-top: 25px;
       letter-spacing: 0.8px;
-      position: relative; }
+      position: relative;
+      color: #787b80; }
       .benefits .benefit-item div::before {
         top: -21px;
         position: absolute;
@@ -501,10 +503,13 @@ template {
   display: flex;
   -ms-flex-pack: distribute;
   justify-content: space-around;
-  padding-top: 64px; }
+  padding: 54px 54px; }
   .another-benefits .another-benefits-item {
     width: 35%; }
+    .another-benefits .another-benefits-item img {
+      width: 100%; }
     .another-benefits .another-benefits-item h2 {
+      color: #384048;
       font-family: "PT Sans";
       text-transform: uppercase;
       font-size: 18px;
@@ -533,10 +538,11 @@ template {
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9e9ea', endColorstr='#f3f3f3',GradientType=1 );
         /* IE6-9 */ }
     .another-benefits .another-benefits-item div {
+      color: #40474e;
       font-family: "PT Sans";
       font-weight: normal; }
     .another-benefits .another-benefits-item a {
-      margin-bottom: 77px;
+      margin-bottom: 29px;
       margin-top: 39px;
       width: 100px;
       text-align: center;
@@ -555,6 +561,7 @@ template {
   background-color: #eeeeef;
   padding: 50px 105px 0; }
   .descr h3 {
+    color: #40474e;
     margin-top: 17px;
     padding-left: 40px;
     font-size: 20px;
@@ -588,6 +595,7 @@ template {
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9e9ea', endColorstr='#f3f3f3',GradientType=1 );
       /* IE6-9 */ }
   .descr p {
+    color: #787b80;
     margin-top: 42px;
     font-family: "PT Sans";
     font-weight: normal;
@@ -608,3 +616,241 @@ template {
     background-color: #d2d5da;
     padding-top: 8px;
     padding-bottom: 8px; }
+
+.stuff {
+  padding: 57px 95px 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  padding-top: 57px; }
+  .stuff .stuff-item {
+    width: 30%; }
+    .stuff .stuff-item img {
+      width: 100%; }
+    .stuff .stuff-item h2 {
+      font-family: "PT Sans";
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 16px;
+      margin-top: 33px;
+      margin-bottom: 42px;
+      color: #384048;
+      position: relative; }
+      .stuff .stuff-item h2::after {
+        bottom: -18px;
+        content: "";
+        width: 185px;
+        height: 2px;
+        background-color: #eeeeee;
+        position: absolute;
+        left: 0px; }
+    .stuff .stuff-item div {
+      font-family: "PT Sans";
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 20px;
+      color: #787b80; }
+    .stuff .stuff-item a {
+      margin-top: 24px;
+      text-decoration: none;
+      color: #50c3af;
+      font-family: "PT Sans";
+      font-weight: normal;
+      font-size: 14px;
+      display: inline-block; }
+
+.another-stuff {
+  background-color: #eeeeef;
+  padding: 46px 105px 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around; }
+  .another-stuff .another-stuff-item {
+    width: 47%;
+    margin-right: 50px; }
+    .another-stuff .another-stuff-item:nth-child(even) {
+      margin-right: 0px; }
+    .another-stuff .another-stuff-item h3 {
+      color: #40474e;
+      margin-top: 17px;
+      padding-left: 40px;
+      font-size: 20px;
+      font-family: "PT Sans";
+      font-weight: bold;
+      text-transform: uppercase;
+      position: relative; }
+      .another-stuff .another-stuff-item h3::after {
+        bottom: -18px;
+        content: "";
+        width: 250px;
+        height: 2px;
+        background-color: #e2e3e4;
+        position: absolute;
+        left: 0px; }
+      .another-stuff .another-stuff-item h3 img {
+        position: absolute;
+        width: 21px;
+        left: 5px;
+        opacity: 0.2; }
+    .another-stuff .another-stuff-item p {
+      color: #787b80;
+      margin-top: 38px;
+      font-family: "PT Sans";
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 22px;
+      margin-bottom: 36px; }
+    .another-stuff .another-stuff-item a {
+      width: 100px;
+      text-align: center;
+      border-radius: 40px;
+      text-decoration: none;
+      display: inline-block;
+      color: #fff;
+      font-family: "PT Sans";
+      font-weight: normal;
+      font-size: 14px;
+      background-color: #50c3af;
+      padding-top: 8px;
+      padding-bottom: 8px; }
+
+.one-img-article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  padding: 64px 103px; }
+  .one-img-article .one-img-text {
+    margin-left: 35px; }
+    .one-img-article .one-img-text h3 {
+      margin-top: 0px;
+      color: #40474e;
+      font-size: 20px;
+      font-family: "PT Sans";
+      font-weight: bold;
+      text-transform: uppercase;
+      position: relative;
+      margin-bottom: 46px; }
+      .one-img-article .one-img-text h3::after {
+        left: 0px;
+        bottom: -19px;
+        position: absolute;
+        height: 2px;
+        width: 294px;
+        content: "";
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e9e9ea+0,eceded+50,f1f1f1+74,f3f3f3+100 */
+        background: #e9e9ea;
+        /* Old browsers */
+        background: -moz-linear-gradient(left, #e9e9ea 0%, #eceded 50%, #f1f1f1 74%, #f3f3f3 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, #e9e9ea 0%, #eceded 50%, #f1f1f1 74%, #f3f3f3 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: -webkit-gradient(linear, left top, right top, from(#e9e9ea), color-stop(50%, #eceded), color-stop(74%, #f1f1f1), to(#f3f3f3));
+        background: -o-linear-gradient(left, #e9e9ea 0%, #eceded 50%, #f1f1f1 74%, #f3f3f3 100%);
+        background: linear-gradient(to right, #e9e9ea 0%, #eceded 50%, #f1f1f1 74%, #f3f3f3 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9e9ea', endColorstr='#f3f3f3',GradientType=1 );
+        /* IE6-9 */ }
+    .one-img-article .one-img-text p {
+      color: #787b80;
+      font-family: "PT Sans";
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 22px; }
+    .one-img-article .one-img-text a {
+      margin-top: 17px;
+      width: 100px;
+      text-align: center;
+      border-radius: 40px;
+      text-decoration: none;
+      display: inline-block;
+      color: #fff;
+      font-family: "PT Sans";
+      font-weight: normal;
+      font-size: 14px;
+      background-color: #d2d5da;
+      padding-top: 8px;
+      padding-bottom: 8px; }
+
+.brands-section .brands {
+  background-color: #50c3af;
+  padding: 50px 100px; }
+  .brands-section .brands h3 {
+    margin: 0 auto;
+    width: 274px;
+    color: #ffffff;
+    margin-top: 0px;
+    padding-left: 40px;
+    font-size: 15px;
+    font-family: "PT Sans";
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative; }
+    .brands-section .brands h3::after {
+      bottom: -18px;
+      opacity: 0.2;
+      content: "";
+      width: 250px;
+      height: 2px;
+      background-color: #e2e3e4;
+      position: absolute;
+      left: 20px; }
+    .brands-section .brands h3 img {
+      position: absolute;
+      width: 17px;
+      left: 13px;
+      opacity: 0.5;
+      top: -1px; }
+  .brands-section .brands .brands-list {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin-top: 56px;
+    padding: 0px; }
+    .brands-section .brands .brands-list li {
+      font-size: 26px;
+      color: #cbede7; }
+    .brands-section .brands .brands-list .TechCrunch {
+      font-family: "Belinda"; }
+    .brands-section .brands .brands-list .Promail {
+      font-family: "Nexa"; }
+    .brands-section .brands .brands-list .Mashable {
+      font-family: "Cabin"; }
+    .brands-section .brands .brands-list .atlaspix {
+      font-family: "Nexa";
+      font-weight: 900; }
+
+footer .footer-items {
+  padding: 24px 108px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-size: 13px;
+  font-family: "PT Sans";
+  font-style: normal; }
+  footer .footer-items .footer-item span {
+    opacity: 0.5; }
+  footer .footer-items img {
+    width: 22px;
+    display: inline-block;
+    border-style: none;
+    height: 16px; }
